@@ -57,135 +57,17 @@ body {
   cursor: pointer;
 }
 
-.section-notification-webber,
-.section-notification-gray,
-.section-notification-thompson {
+.section-notification {
   margin-top: 0.5rem;
   border-radius: 0.5rem;
-  background-color: var(--bg-color, hsl(211, 68%, 94%));
   cursor: pointer;
 }
 
-.section-notification-rizky {
-  border-radius: 0.5rem;
-  background-color: var(--bg-color, white);
-  cursor: pointer;
-  padding-bottom: 2rem;
-  margin: 0.5rem 0;
-}
-
-.section-notification-smith,
-.section-notification-peterson,
-.section-notification-kim {
-  margin-top: 0.5rem;
-  border-radius: 0.5rem;
-  background-color: var(--bg-color, white);
-  cursor: pointer;
-}
-
-.section-notification-webber-alone {
-  background-color: var(--bg-color-webber, hsl(211, 68%, 94%));
-}
-
-.section-notification-gray-alone {
-  background-color: var(--bg-color-gray, hsl(211, 68%, 94%));
-}
-
-.section-notification-thompson-alone {
-  background-color: var(--bg-color-thompson, hsl(211, 68%, 94%));
-}
-
-.section-notification-rizky-alone {
-  background-color: var(--bg-color-rizky, white);
-}
-
-.section-notification-smith-alone {
-  background-color: var(--bg-color-smith, white);
-}
-
-.section-notification-peterson-alone {
-  background-color: var(--bg-color-peterson, white);
-}
-
-.section-notification-kim-alone {
-  background-color: var(--bg-color-kim, white);
-}
-
-.section-notification-dot-webber,
-.section-notification-dot-gray,
-.section-notification-dot-thompson {
+.section-notification-dot {
   background-color: hsl(1, 90%, 64%);
   padding: 0.3rem;
   border-radius: 50%;
   margin-left: 0.5rem;
-  display: var(--dot-visibility, "");
-}
-
-.section-notification-dot-rizky,
-.section-notification-dot-smith,
-.section-notification-dot-peterson,
-.section-notification-dot-kim {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility1, "none");
-}
-
-.section-notification-dot-webber-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-webber, "");
-}
-
-.section-notification-dot-gray-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-gray, "");
-}
-
-.section-notification-dot-thompson-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-thompson, "");
-}
-
-.section-notification-dot-rizky-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-rizky, "none");
-}
-
-.section-notification-dot-smith-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-smith, "none");
-}
-
-.section-notification-dot-peterson-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-peterson, "none");
-}
-
-.section-notification-dot-kim-alone {
-  background-color: hsl(1, 90%, 64%);
-  padding: 0.3rem;
-  border-radius: 50%;
-  margin-left: 0.5rem;
-  display: var(--dot-visibility-kim, "none");
 }
 
 .section-notification + .section-notification {
