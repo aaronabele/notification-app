@@ -63,11 +63,13 @@ body {
   cursor: pointer;
 }
 
-.section-notification-dot {
+.section-notification-message::after {
   background-color: hsl(1, 90%, 64%);
   padding: 0.3rem;
+  content: "";
   border-radius: 50%;
   margin-left: 0.5rem;
+  display: none;
 }
 
 .section-notification + .section-notification {
@@ -79,6 +81,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
+  gap: 1rem;
 }
 
 .section-notification-img-text-msg {
@@ -89,7 +92,6 @@ body {
 }
 
 .section-notification-name {
-  margin: 0 2rem;
   margin-top: 1.3rem;
   font-size: 1.2rem;
   font-weight: 800;
@@ -123,4 +125,12 @@ body {
 .img-chess-wrapper {
   width: max-content;
   margin-right: 2rem;
+}
+
+.section-notification.unread {
+  background-color: hsl(211, 68%, 94%);
+}
+
+.section-notification.unread .section-notification-message::after {
+  display: inline-block;
 }
